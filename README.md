@@ -11,6 +11,7 @@ Link para o código original: https://github.com/BrunaDamaris/Re-Folha-de-Pagame
    Este padrão está implementado em todas as classes do pacote "command". 
    
    - [X] [command package](https://github.com/ferreiraluana/Refactor2/tree/master/src/command)
+   
    Exemplo:
    ```java
    package command;
@@ -54,6 +55,7 @@ Link para o código original: https://github.com/BrunaDamaris/Re-Folha-de-Pagame
    
    - [X] [Singleton.java](https://github.com/ferreiraluana/Refactor2/blob/master/src/syndicate/Singleton.java)
      
+   Exemplo:
    ```java
    package syndicate;
 
@@ -65,7 +67,7 @@ Link para o código original: https://github.com/BrunaDamaris/Re-Folha-de-Pagame
 			synd = new SyndicateCG();
 		}		
 		return synd;
-	}
-}
+        }
+   }
    
   ```
