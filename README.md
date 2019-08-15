@@ -6,7 +6,7 @@ Link para o código original: https://github.com/BrunaDamaris/Re-Folha-de-Pagame
 
 # Padrões de projeto implementados: 
 
-## - [X] Command
+## Command
 
    Este padrão está implementado em todas as classes do pacote "command". 
    
