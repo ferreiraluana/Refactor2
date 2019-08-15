@@ -2,7 +2,7 @@
 
 ### Observações Iniciais
 Este trabalho é o refatoramento do projeto **'Folha de Pagamento'**, cuja autoria pertence a @BrunaDamaris.  
-Link para o código original: https://github.com/BrunaDamaris/Re-Folha-de-Pagamento 
+[Link para o código original](https://github.com/BrunaDamaris/Re-Folha-de-Pagamento)
 
 # Padrões de projeto implementados: 
 
