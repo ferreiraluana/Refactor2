@@ -9,7 +9,8 @@ Link para o código original: https://github.com/BrunaDamaris/Re-Folha-de-Pagame
 ## Command
 
    Este padrão está implementado em todas as classes do pacote "command". 
-   [command package](https://github.com/ferreiraluana/Refactor2/tree/master/src/command)
+   
+   - [X] [command package](https://github.com/ferreiraluana/Refactor2/tree/master/src/command)
     
 ## Strategy
 
