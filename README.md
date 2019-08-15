@@ -11,6 +11,20 @@ Link para o código original: https://github.com/BrunaDamaris/Re-Folha-de-Pagame
    Este padrão está implementado em todas as classes do pacote "command". 
    
    - [X] [command package](https://github.com/ferreiraluana/Refactor2/tree/master/src/command)
+   Exemplo:
+   ```java
+   package command;
+
+   import folhadepagamento.Timecard;
+
+   public class TimecardCommand implements MainCommand{
+	   public void execute() {
+	   	Timecard timecard = new Timecard();
+	   	timecard.card();
+	   }
+   }
+   
+   ```
     
 ## Strategy
 
@@ -18,6 +32,21 @@ Link para o código original: https://github.com/BrunaDamaris/Re-Folha-de-Pagame
    
   - [X] [EditStrategy.java](https://github.com/ferreiraluana/Refactor2/blob/master/src/edit/EditStrategy.java)
   - [X] [EditTypeStrategy.java](https://github.com/ferreiraluana/Refactor2/blob/master/src/edit/EditTypeStrategy.java)
+  
+   Exemplo:
+   ```java
+   package edit;
+
+   import java.util.Map;
+   import java.util.Scanner;
+
+   import employee.Employees;
+
+   public interface EditStrategy {
+	   public void change (Map<Integer,Employees> employee,int currentid,Scanner input);
+   }
+   
+   ```
      
 ## Singleton
 
@@ -25,3 +54,18 @@ Link para o código original: https://github.com/BrunaDamaris/Re-Folha-de-Pagame
    
    - [X] [Singleton.java](https://github.com/ferreiraluana/Refactor2/blob/master/src/syndicate/Singleton.java)
      
+   ```java
+   package syndicate;
+
+   public final class Singleton {
+	private static SyndicateCG synd;
+	
+	public static SyndicateCG getInstance() {
+		if(synd == null) {
+			synd = new SyndicateCG();
+		}		
+		return synd;
+	}
+}
+   
+  ```
